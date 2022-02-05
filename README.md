@@ -24,4 +24,12 @@ Table 2:<br>
 ![lot_summary data frame](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/LotSummaryDataFrame.png)
 
 ## T-Tests on Suspension Coils
-We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Using a Null Hypothesis of There is no statistical difference between the observed sample PAI mean and its presumed population PAI mean and an Alternate Hypothesis of: There is a statistical difference between the observed sample mean and its presumed population mean, we observed the following results:
+We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Our hypotheses for these tests were:
+
+Null Hypothesis: There is no statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI
+Alternate Hypothesis: There is a statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI
+
+Our results were as follows:
+
+
+
