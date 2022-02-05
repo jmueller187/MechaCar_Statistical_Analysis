@@ -3,14 +3,15 @@ Automotive data analysis using R and Statistics
 
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?<br>
-According to the results as seen in the screen shot below, vehicle length and ground celarance are statistically unlikely to provide random amounts of variance to the linear model.
+According to the results as seen in Image 1 below, vehicle length and ground celarance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words, vehicle length and ground clearance have a significant impact on MPG based on our testing.
 
 - Is the slope of the linear model considered to be zero? Why or why not?<br>
 The slope of the linear model is not considered to be zero due to the following: The p-value of our linear regression analysis is 5.08 x 10-8, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?<br>
-The linear model does not predict mpg of MechaCar prototypes effectively. With the intercept being statistically significant, this indicates a significant amount of variability in the dependent variable when all independent vairables are equal to zero. This also indicates that the significant features may need scaling or transforming to help improve the predictive power of the model, or there are other variables that have not been included in our model that could help explain the variability of our dependent variable.
+Our testing showed that the linear model does predict mpg of MechaCar prototypes effectively, as indicated by the returned R-squared value from our linear regression test. This value ended up being 0.7149, which tells us that over 71 percent of our MPG metric can be explained with this linear model and the significant impacts of vehicle length and ground clearance.
 
+Image 1:<br>
 ![Liner regression screenshot](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/LinearRegressionOutput.png)
 
 ## Summary Statistics on Suspension Coils
@@ -24,27 +25,26 @@ Table 2:<br>
 ![lot_summary data frame](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/LotSummaryDataFrame.png)
 
 ## T-Tests on Suspension Coils
-We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Our hypotheses for these tests were:
-
+We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Our hypotheses for these tests were:<br>
 Null Hypothesis: There is no statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI<br?
 Alternate Hypothesis: There is a statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI<br>
 Assumed level of significance: 0.05
 
-Our results were as follows:
-Combined namufacturing lots - As seen in Image 1, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
-Image 1:<br>
+Our results were as follows:<br>
+Combined namufacturing lots - As seen in Image 2, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 2:<br>
 ![Combined lots image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestTotalSummary.png)
 
-Lot 1 - As seen in Image 2, the p-value for the combined lots was 1. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the Lot 1 observed sample mean PSI and its presumed population mean of 1,500 PSI.<br>
-Image 2:<br>
+Lot 1 - As seen in Image 3, the p-value for the combined lots was 1. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the Lot 1 observed sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 3:<br>
 ![Lot 1 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot1Summary.png)
 
-Lot 2 - As seen in Image 3, the p-value for the combined lots was 0.6072. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed Lot 2 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
-Image 3:<br>
+Lot 2 - As seen in Image 4, the p-value for the combined lots was 0.6072. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed Lot 2 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 4:<br>
 ![Lot 2 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot2Summary.png)
 
-Lot 3 - As seen in Image 4, the p-value for the combined lots was 0.04168. With this p-value being below our level of significance, we rejected the Null Hypothesis and conclude there is a statistical difference between the observed Lot 3 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
-Image 3:<br>
+Lot 3 - As seen in Image 5, the p-value for the combined lots was 0.04168. With this p-value being below our level of significance, we rejected the Null Hypothesis and conclude there is a statistical difference between the observed Lot 3 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 5:<br>
 ![Lot 3 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot3Summary.png)
 
 ## Study Design: MechaCar vs Competition
