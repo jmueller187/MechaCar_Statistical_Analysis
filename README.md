@@ -55,12 +55,16 @@ Image 5:<br>
 
 ## Study Design: MechaCar vs Competition
 Our final task was to design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
 What metric or metrics are you going to test?
 - We chose to include metrics for horsepower and engine size (i.e. 4-cylinder, 6-cylinder or 8-cylinder) to test against MPG, as manufacturers often indicate engine size influences fuel efficiency.<br>
+
 What is the null hypothesis or alternative hypothesis?
 - Our Null Hypothesis would be: There is no statistical difference between engine size, horsepower and vehicle fuel efficiency (MPG).
 - Our Alternative Hypothesis would be: There is a statistical difference between engine size, horsepower and vehicle fuel efficiency (MPG).<br>
+
 What statistical test would you use to test the hypothesis? And why?
 - We chose to select linear regression testing for further analysis, because we have the option to use either single linear regression (i.e. MPG vs. horsepower or MPG vs. engine size) or multiple linear regression (i.e. MPG vs. horsepower + engine size) to test our hypotheses and determine if statistical differences exist or not.<br>
+
 What data is needed to run the statistical test?
 - We would need to gather horsepower data on all the MechaCar prototype vehicles that were part of our study as well as the engine size of each vehicle. In addition, we would need a data set of competitor vehicles containing all of these metrics so we could perform comparision between the prototype and currently manufactured vehicles.
