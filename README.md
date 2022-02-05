@@ -22,3 +22,6 @@ Table 1:<br>
 For the lot_summary dataframe (shown in Table 2) which included separate summaries for each individual lot, we saw that both Lot 1 and Lot 2 met the required design specification with variances of 0.98 and 7.47 respectively. Lot 3, on the other hand, failed to meet the design specification with a variance of 170.29.<br>
 Table 2:<br>
 ![lot_summary data frame](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/LotSummaryDataFrame.png)
+
+## T-Tests on Suspension Coils
+We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Using a Null Hypothesis of There is no statistical difference between the observed sample PAI mean and its presumed population PAI mean and an Alternate Hypothesis of: There is a statistical difference between the observed sample mean and its presumed population mean, we observed the following results:
