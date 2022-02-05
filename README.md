@@ -33,7 +33,7 @@ Alternate Hypothesis: There is a statistical difference between the observed sam
 Assumed level of significance: 0.05
 
 Our results were as follows:<br>
-Combined namufacturing lots - As seen in Image 2, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Combined manufacturing lots - As seen in Image 2, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
 
 Image 2:<br>
 ![Combined lots image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestTotalSummary.png)
