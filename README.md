@@ -26,10 +26,24 @@ Table 2:<br>
 ## T-Tests on Suspension Coils
 We used the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch (PSI). Our hypotheses for these tests were:
 
-Null Hypothesis: There is no statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI
-Alternate Hypothesis: There is a statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI
+Null Hypothesis: There is no statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI<br?
+Alternate Hypothesis: There is a statistical difference between the observed sample mean PSI and its presumed population mean of 1,500 PSI<br>
+Assumed level of significance: 0.05
 
 Our results were as follows:
+Combined namufacturing lots - As seen in Image 1, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 1:<br>
+!{Combined Lots image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestTotalSummary.png)
 
+Lot 1 - As seen in Image 2, the p-value for the combined lots was 1. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the Lot 1 observed sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 2:<br>
+![Lot 1 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot1Summary.png)
 
+Lot 2 - As seen in Image 3, the p-value for the combined lots was 0.6072. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed Lot 2 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 3:<br>
+![Lot 2 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot2Summary.png)
+
+Lot 3 - As seen in Image 4, the p-value for the combined lots was 0.04168. With this p-value being below our level of significance, we rejected the Null Hypothesis and conclude there is a statistical difference between the observed Lot 3 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+Image 3:<br>
+![Lot 3 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot3Summary.png)
 
