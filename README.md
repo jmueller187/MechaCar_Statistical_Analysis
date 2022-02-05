@@ -17,10 +17,12 @@ Image 1:<br>
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?<br>
 For the total_summary data frame (shown in Table 1) which included all three manufacturing lots, we saw that this overall summary met the requred design specification with a  variance of 62.59.<br>
+
 Table 1:<br>
 ![total_summary data frame](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TotalSummaryDataFrame.png)
 
 For the lot_summary dataframe (shown in Table 2) which included separate summaries for each individual lot, we saw that both Lot 1 and Lot 2 met the required design specification with variances of 0.98 and 7.47 respectively. Lot 3, on the other hand, failed to meet the design specification with a variance of 170.29.<br>
+
 Table 2:<br>
 ![lot_summary data frame](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/LotSummaryDataFrame.png)
 
@@ -32,18 +34,22 @@ Assumed level of significance: 0.05
 
 Our results were as follows:<br>
 Combined namufacturing lots - As seen in Image 2, the p-value for the combined lots was 0.06028. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed combined lots sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+
 Image 2:<br>
 ![Combined lots image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestTotalSummary.png)
 
 Lot 1 - As seen in Image 3, the p-value for the combined lots was 1. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the Lot 1 observed sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+
 Image 3:<br>
 ![Lot 1 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot1Summary.png)
 
 Lot 2 - As seen in Image 4, the p-value for the combined lots was 0.6072. With this p-value being above our level of significance, we failed to reject the Null Hypothesis and conclude there is no statistical difference between the observed Lot 2 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+
 Image 4:<br>
 ![Lot 2 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot2Summary.png)
 
 Lot 3 - As seen in Image 5, the p-value for the combined lots was 0.04168. With this p-value being below our level of significance, we rejected the Null Hypothesis and conclude there is a statistical difference between the observed Lot 3 sample mean PSI and its presumed population mean of 1,500 PSI.<br>
+
 Image 5:<br>
 ![Lot 3 image](https://github.com/jmueller187/MechaCar_Statistical_Analysis/blob/main/Resources/TTestLot3Summary.png)
 
