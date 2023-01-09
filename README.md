@@ -2,6 +2,7 @@
 Automotive data analysis using R and Statistics
 
 ## Linear Regression to Predict MPG
+### Our analysis was performed to answer the following questions:
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?<br>
 According to the results as seen in Image 1 below, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words, vehicle length and ground clearance have a significant impact on MPG per the test results.
 
